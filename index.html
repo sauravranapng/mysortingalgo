@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="/jsfiles/index.js"></script>
+    <script src="/jsfiles/bubble.js"></script>
+    <script src="/jsfiles/selection.js"></script>
+  <script src="/jsfiles/insertion.js"></script>
+  <script src="/jsfiles/merge.js"></script>
+  <script src="/jsfiles/quick.js"></script>
+    <title>Sorting-Algo-Visualiser</title>
+</head>
+<body onload="js()">
+    
+        
+    <h1>SORTING VISUALISER</h1>
+
+<div class="toprow">
+    <div class="generate_array"><button  class="btn" id="New_array">New array</button></div>
+    <div class="col" id="input">
+        <span id="size">Size
+            <input id="array_size" type="range" min="2" max="70" step=1 value=50>
+        </span>
+        <span id="speed">Speed
+            <input id="speed_input" type="range" min="2" max="298" stepDown=10 value=100>
+        </span>
+    </div>
+    <div class="nav">
+    <button  class="btn" id="Bubble_sort">Bubble Sort</button>
+    <button class="btn" id="Selection_sort">Selection Sort</button>
+    <button class="btn" id="Insertion_sort">Insertion Sort</button>
+    <button class="btn" id="Quick_sort">Quick Sort</button> 
+    <button class="btn" id="Merge_sort">Merge Sort</button></div>
+    
+    </div>
+    <div class="bars" id="allbar"></div>
+</body>
+</html>
