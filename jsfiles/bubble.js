@@ -28,15 +28,16 @@ ele2.style.background="rgb(240, 221, 57)";
 
 if(j+1==parseInt(arraySize.value)-i-1){
         var x= document.getElementById("a"+parseInt(j+1));
-        var y= document.getElementById("a"+parseInt(j));
+        //var y= document.getElementById("a"+parseInt(j));
         x.style.background="green";
-        y.style.background="green";
+       // y.style.background="green";
  }
 
         }
        
     }
-  
+   var y= document.getElementById("a"+parseInt(0));
+ y.style.background="green";
     enableSortingBtn();
     enableSizeSlider();
     enableNewArrayBtn();}
